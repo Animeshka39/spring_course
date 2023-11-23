@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @Setter
 public class Toyota implements Car {
 
-    @Value("${car.brand}")
+    @Value("Toyota")
     private String brand;
 
     @Value("Sprinter Trueno")

@@ -31,9 +31,7 @@ public class Subaru implements Car {
         this.price = price;
     }
 
-    public String getBrand() {
-        return brand;
-    }
+    public String getBrand() {return brand;}
 
     public void setBrand(String brand) {
         this.brand = brand;
